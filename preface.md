@@ -1,23 +1,31 @@
 # Go语言圣经（中文版）
 
-Go语言圣经 [《The Go Programming Language》](http://gopl.io) 中文版本，仅供学习交流之用。
+Go语言圣经 [《The Go Programming Language》](http://gopl.io) 中文版本，仅供学习交流之用。对于希望学习CGO、Go汇编语言等高级用法的同学，我们推荐[《Go语言高级编程》](https://github.com/chai2010/advanced-go-programming-book)开源图书。
 
 [![](cover_middle.jpg)](https://github.com/golang-china/gopl-zh)
 
 - 项目主页：http://github.com/golang-china/gopl-zh
-- 项目主页：http://bitbucket.org/golang-china/gopl-zh
 - 原版官网：http://gopl.io
 
 
-在线预览：
+译者信息：
 
-- http://gopl-zh.b0.upaiyun.com/
-- http://docs.ruanjiadeng.com/gopl-zh/
-- http://shifei.me/gopl-zh/
-- http://2goo.info/media/html/gopl-zh-gh-pages/
-- http://docs.plhwin.com/gopl-zh/
-- http://gopl-zh.simple-is-best.tk/
+- 译者：柴树杉，Github [@chai2010](https://github.com/chai2010)，Twitter [@chaishushan](https://twitter.com/chaishushan)
+- 译者：Xargin, https://github.com/cch123
+- 译者：CrazySssst
+- 译者：foreversmart <njutree@gmail.com>
+
+
+## 关注微信公众号(golang-china)
+
+![](weixin-golang-china.jpg)
+
+
+## 在线预览
+
 - https://docs.hacknode.org/gopl-zh/
+- https://books.studygolang.com/gopl-zh/
+- https://wizardforcel.gitbooks.io/gopl-zh/
 
 {% include "./version.md" %}
 
@@ -61,7 +69,7 @@ Go语言尤其适合编写网络服务相关基础设施，同时也适合开发
 和机器学习等诸多领域。目前Go语言已经成为受欢迎的作为无类型的脚本语言的替代者：
 因为Go编写的程序通常比脚本语言运行的更快也更安全，而且很少会发生意外的类型错误。
 
-Go语言还是一个开源的项目，可以免费获编译器、库、配套工具的源代码。
+Go语言还是一个开源的项目，可以免费获取编译器、库、配套工具的源代码。
 Go语言的贡献者来自一个活跃的全球社区。Go语言可以运行在类[UNIX](http://doc.cat-v.org/unix/)系统——
 比如[Linux](http://www.linux.org/)、[FreeBSD](https://www.freebsd.org/)、[OpenBSD](http://www.openbsd.org/)、[Mac OSX](http://www.apple.com/cn/osx/)——和[Plan9](http://plan9.bell-labs.com/plan9/)系统和[Microsoft Windows](https://www.microsoft.com/zh-cn/windows/)操作系统之上。
 Go语言编写的程序无需修改就可以运行在上面这些环境。
