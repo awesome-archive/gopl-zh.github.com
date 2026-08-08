@@ -1,39 +1,50 @@
 # Go语言圣经（中文版）
 
-Go语言圣经 [《The Go Programming Language》](http://gopl.io) 中文版本，仅供学习交流之用。
+- *凹语言(专为 WebAssembly 设计): https://github.com/wa-lang/wa*
+- *WaBook(Go语言实现的MD电子书构建工具): https://github.com/wa-lang/wabook*
 
-![](cover_middle.jpg)
+----
 
-- 项目主页：http://github.com/golang-china/gopl-zh
-- 项目主页：http://bitbucket.org/golang-china/gopl-zh
-- 原版官网：http://gopl.io
+Go语言圣经 [《The Go Programming Language》](http://gopl.io) 中文版本，仅供学习交流之用。对于希望学习CGO、Go汇编语言等高级用法的同学，我们推荐[《Go语言高级编程》](https://github.com/chai2010/advanced-go-programming-book)开源图书。如果希望深入学习Go语言语法树结构，可以参考[《Go语法树入门——开启自制编程语言和编译器之旅》](https://github.com/chai2010/go-ast-book)。如果想从头实现一个玩具Go语言可以参考[《从头实现µGo语言》](https://github.com/wa-lang/ugo-compiler-book)（µGo 是 [凹语言](https://wa-lang.org/) 阶段的产物）。
 
 
-在线预览：
+![](cover.jpg)
 
-- http://gopl-zh.b0.upaiyun.com/
-- http://docs.ruanjiadeng.com/gopl-zh/
-- http://shifei.me/gopl-zh/
-- http://2goo.info/media/html/gopl-zh-gh-pages/
-- http://docs.plhwin.com/gopl-zh/
-- http://gopl-zh.simple-is-best.tk/
-- https://docs.hacknode.org/gopl-zh/
+- 在线阅读：[https://gopl-zh.github.io](https://gopl-zh.github.io)
+- 在线阅读：[https://golang-china.github.io/gopl-zh](https://golang-china.github.io/gopl-zh)
+- 项目主页：[https://github.com/gopl-zh](https://github.com/gopl-zh)
+- 项目主页(旧)：[http://github.com/golang-china/gopl-zh](http://github.com/golang-china/gopl-zh)
+- 原版官网：[http://gopl.io](http://gopl.io)
+
+
+译者信息：
+
+- 译者：柴树杉，Github [@chai2010](https://github.com/chai2010)，Twitter [@chaishushan](https://twitter.com/chaishushan)
+- 译者：Xargin, [https://github.com/cch123](https://github.com/cch123)
+- 译者：CrazySssst, [https://github.com/CrazySssst](https://github.com/CrazySssst)
+- 译者：foreversmart, [https://github.com/foreversmart](https://github.com/foreversmart) <njutree@gmail.com>
+
+Go 语言中国：
+
+- Go 语言中国：[https://github.com/golang-china](https://github.com/golang-china)
+- Go 语言中国论坛：[https://github.com/golang-china/main.go/discussions](https://github.com/golang-china/main.go/discussions)
+
+
+## 关注微信公众号
+
+<table>
+<tr>
+<td>
+<img width="222px"  src="https://github.com/chai2010/advanced-go-programming-book/raw/master/css.png">
+</td>
+<td>
+<img width="222px"  src="https://github.com/chai2010/advanced-go-programming-book/raw/master/cch.png">
+</td>
+</tr>
+</table>
+
 
 **注意，在线预览不是最新版，最新以仓库里的内容为准**
-
-
-### 从源文件构建
-
-先安装NodeJS和GitBook命令行工具(`npm install gitbook-cli -g`命令)。
-
-1. 运行`go get github.com/golang-china/gopl-zh`，获取 [源文件](https://github.com/golang-china/gopl-zh/archive/master.zip)。
-2. 切换到 `gopl-zh` 目录，运行 `gitbook install`，安装GitBook插件。
-3. 运行`make`，生成`_book`目录。
-4. 打开`_book/index.html`文件。
-
-### Go语言圣经DMCA相关
-
-目前Github上的[gopl-zh](https://github.com/golang-china/gopl-zh)因为[DMCA](https://github.com/github/dmca/blob/master/2016-02-03-TheGoProgrammingLanguage.md)问题暂时无法访问，需要私下交流的请转QQ群(531508541)。
 
 # 版权声明
 
